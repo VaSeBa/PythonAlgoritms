@@ -21,8 +21,9 @@ def binary_search(list, item):
 
 
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-numbers2 = [x for x in range(1, 1001)]
-target = 670
+numbers2 = [x for x in range(1, 10001)]
+target = 6700
 
 result = binary_search(numbers2, target)
-print(f"Индекс элемента {target}: {result}, длинна списка = {len(numbers2)}, индекс первого элемента = {numbers.index(1)}")
+print(
+    f"Индекс элемента {target}: {result}, длинна списка = {len(numbers2)}, индекс первого элемента = {numbers.index(1)}")
