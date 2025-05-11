@@ -12,7 +12,7 @@ def find_min_number(arr):
     return smallest_value, index
 
 
-arr = [random.randint(-100, 100) for i in range(10)]
-print(arr)
+# # arr = [random.randint(-100, 100) for i in range(10)]
+# print(arr)
 
-find_min_number(arr)
+# find_min_number(arr)
